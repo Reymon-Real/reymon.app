@@ -1,3 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Reymon Applications'
+theme = "PaperMod"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
